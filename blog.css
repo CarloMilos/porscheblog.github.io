@@ -109,6 +109,19 @@ font-size: 20px;
 .blog1 h3{
     font-weight: bold;
 }
+.blog1 img {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 500px;
+  }
+  
+  .blog1 h3:nth-of-type(3) {
+    clear: both;
+  }
+  
 .slideshow{
     width: 50%;
 }
