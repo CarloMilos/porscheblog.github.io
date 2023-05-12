@@ -1,0 +1,147 @@
+.whole{
+    background-color: #F1F3F4;
+}
+@keyframes transitionIn {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+::-webkit-scrollbar{
+    width: 1em;
+}
+::-webkit-scrollbar-track{
+    background: #e6e6e6
+}
+::-webkit-scrollbar-thumb{
+    background: #275C88
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.blog_header h1{
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 100px;
+  margin-top: 40px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    animation: transitionIn 3s;
+}
+.first_image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.porsche {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row; 
+}
+.porsche img {
+  max-width: 35%;
+  height: auto;
+  margin: 0 10px;
+}
+.blog_title {
+    text-align: center;
+}
+
+.blog_title h1 {
+font-family: 'Oswald', sans-serif;
+font-size: 48px;
+}
+
+.blog_title p {
+font-family: 'Oswald', sans-serif;
+width: 60%;
+margin: 0 auto;
+font-size: 20px;
+}
+  
+.blog_tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  position: relative;
+  right: 25rem;
+}
+.blog_tags h5 {
+  margin: 0 10px 10px 0;
+  font-size: 12px;
+  color: #666;
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: default;
+}
+.blog {
+    font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+  width: 50%;
+}
+.blog1 {
+    margin-top: 40px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+}
+.blog1 h3{
+    font-weight: bold;
+}
+.slideshow{
+    width: 50%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+  position: relative;
+  top: 3rem;
+}
+
+footer {
+    margin-top: 20px;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footer-info {
+    justify-content: flex-end;
+  flex-basis: 100%;
+}
+.footer-info p {
+  margin: 0;
+  font-size: 16px;
+}
+
